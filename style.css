@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+html { 
+    background: url(images/golf.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+main {
+    width: 600px;
+    font-size: 36px;
+    margin: 150px auto 10px;
+    text-align: center;
+}
+
+#par-label {
+    margin-right: 60px;
+}
+
+label {
+    font-weight: 700;
+}
+
+input {
+    text-align: center;
+    font-size: 36px;
+    height: 40px;
+    width: 250px;
+}
+
+button {
+    width: 350px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+button:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#msg {
+    width: 250px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+footer {
+   width: 100%;
+   text-align: center;
+   margin-top: 60px;
+   color: #F743EA ;
+   font-weight: 700;
+   font-size: 18px;
+
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.results {
+    font: 24px;
+    font-weight: 700;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  
+}
+
+.error {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+
+    main {
+        width: 350px;
+    }
+
+    #par-label {
+        position: relative;
+        left: 25px;
+        margin-right: 50px;
+    }
+    
+}
